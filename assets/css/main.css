@@ -421,17 +421,17 @@ body {
 
 .contactNew {
   width: 100vw;
-  background-color: rgb(232, 161, 161);
   margin-top: 80px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 20vh;
+  height: 88.6vh;
 }
 
 .brbr {
   font-size: 60px;
+  color: #FF8200;
 }
 
 .somethingBruh {
@@ -448,7 +448,9 @@ body {
 .jumping {
   transform: scale(1);
   transition: all 2s eas-in-out;
+  transition-duration: 260ms;
 }
 
 .jumping:hover {
+  transform: scale(1.1);
 }
