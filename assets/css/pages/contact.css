@@ -36,12 +36,11 @@
 \*-----------------------------------*/
 
 .contact {
-  background-color: var(--jet);
+  background-color: white;
   padding-block-start: calc(var(--section-padding) + 60px);
 }
 
-.contact .container {
-  display: grid;
+.container {
   gap: 48px;
 }
 

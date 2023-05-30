@@ -216,7 +216,7 @@ body.loaded { overflow: visible; }
 .title-md,
 .title-sm,
 .label-lg {
-  color: var(--jet);
+  color: #58595B;
   font-weight: var(--fw-600);
   line-height: 1.2;
 }
@@ -364,7 +364,7 @@ body.loaded { overflow: visible; }
   transition-delay: 0.4s;
 }
 
-.navbar-item:not(:last-child) { border-block-end: 1px solid var(--jet_a10); }
+.navbar-item:not(:last-child) { border-block-end: 1px solid #FF8200; }
 
 .navbar-link {
   text-transform: uppercase;

@@ -51,7 +51,9 @@
 .card .body-sm { color: var(--jet); }
 
 
-
+.padWorthy {
+  margin-top: 15px;
+}
 
 
 /*-----------------------------------*\
@@ -66,4 +68,12 @@
 
   .service-list { grid-template-columns: 1fr 1fr; }
 
+}
+
+.clearerText {
+  font-weight: bold;
+  font-style: italic;
+}
+span {
+  display: inline;
 }
